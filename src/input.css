@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.label_form_style_1{
+    @apply
+    w-full block text-sm 
+}
+
+.input_text_style_1{
+    @apply
+    py-2 pl-4 box-border block w-full bg-slate-200 rounded-sm text-gray-600 p-1 text-base my-1
+}
+
+.button_form_submid_style_1{
+    @apply
+    bg-gray-900 rounded-xl p-2 text-white 
+}
